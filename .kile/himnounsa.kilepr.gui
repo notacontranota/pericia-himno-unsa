@@ -125,7 +125,7 @@ order=-1
 
 [item:cap/letra-melodia-ritmo.tex]
 open=false
-order=1
+order=4
 
 [item:cap/memoria.tex]
 open=true
@@ -133,7 +133,7 @@ order=1
 
 [item:cap/partitura.tex]
 open=false
-order=5
+order=3
 
 [item:cap/portada.tex]
 open=false
@@ -200,8 +200,8 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/bitonalidad.tex]
-CursorColumn=1892
-CursorLine=233
+CursorColumn=2
+CursorLine=177
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
@@ -224,32 +224,32 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/convenciones.tex]
-CursorColumn=14
-CursorLine=60
+CursorColumn=10
+CursorLine=44
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/letra-melodia-ritmo.tex]
-CursorColumn=17
-CursorLine=1
+CursorColumn=257
+CursorLine=61
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/memoria.tex]
-CursorColumn=166
-CursorLine=3
+CursorColumn=437
+CursorLine=19
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/partitura.tex]
-CursorColumn=17
-CursorLine=3
+CursorColumn=0
+CursorLine=18
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]

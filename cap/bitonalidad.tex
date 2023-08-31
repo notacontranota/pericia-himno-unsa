@@ -166,10 +166,13 @@ La estructura melódica completa queda, pues, definida principalmente por notas 
 \relative {
   \key f \major
   \hide Stem
-  f'2\startGroup g a bes\stopGroup \bar "||"
-  f'\startGroup e4 ( c2\stopGroup ) \bar "||"
-  d4 ( bes2\startGroup ) c4 ( a2 ) g f\stopGroup ~\bar "||"
-  f2\startGroup bes\stopGroup c\startGroup ( f4 ) d2 e f\stopGroup \bar "|."
+  \slurHalfDashed
+  f'2^"c.18"\startGroup g a bes\stopGroup \bar "||"
+  f'^"c.26"\startGroup e4 ( c2\stopGroup ) \bar "||"
+  d4^"c.30" ( bes2\startGroup ) c4 ( a2 ) g f\stopGroup ~\bar "||"
+  f2^"c.34"\startGroup bes\stopGroup
+  \slurHalfSolid
+  c^"c.38"\startGroup ( f4 ) d2 e f\stopGroup \bar "|."
 }
 \end{ly}
 \caption{Estructura de la melodía.}
