@@ -240,8 +240,8 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/memoria.tex]
-CursorColumn=437
-CursorLine=19
+CursorColumn=55
+CursorLine=50
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
