@@ -1,0 +1,57 @@
+\documentclass[a5paper,10pt]{scrbook}
+
+\usepackage{musluatex}      % musicología pichicatiáo con -4.5ex en ejemplos ly en línea
+\usepackage{graphicx}       % imágenes
+\usepackage{caption}        % enlaza sobre la figura o el cuadro
+\usepackage{float}          % para anclar flotantes (figuras y tablas) al lugar con opción [H]
+\usepackage{tablefootnote}  % para \footnote{} en tabular
+\usepackage{booktabs}       % tablas estéticas
+\usepackage{multirow}       % filas múltiples en tablas
+%\usepackage{fancyhdr}       % encabezado de páginas
+%\pagestyle{fancy}
+\usepackage[
+  hidelinks,
+  colorlinks=false,
+  final,
+  unicode,
+  pdftitle={Análisis de una pieza inédita de Gustavo «Cuchi» Leguizamón},
+  pdfauthor={Pablo Herrera},
+]{hyperref}
+
+%Apéndices
+\usepackage[toc,page]{appendix}
+\renewcommand{\appendixname}{Apéndices}
+\renewcommand{\appendixtocname}{Apéndices}
+\renewcommand{\appendixpagename}{Apéndices}
+
+% Líneas viudas y huérfanas
+\clubpenalty=10000
+\widowpenalty=10000
+
+\begin{document}
+\title{Análisis de una pieza inédita de\\Gustavo «Cuchi» Leguizamón}
+\subtitle{Himno a la Universidad Nacional de Salta}
+\author{Pablo Herrera}
+\date{\today}
+\maketitle
+
+\frontmatter
+\newpage{\ }
+\input{cap/portada}
+\tableofcontents
+\input{cap/prologo}
+\input{cap/convenciones}
+\mainmatter
+\input{cap/memoria}
+\input{cap/letra-melodia-ritmo}
+\input{cap/partitura}
+\input{cap/bitonalidad}
+\input{cap/caminos-posibles}
+
+\backmatter
+\begin{appendices}
+\input{cap/apx-codigo}
+\end{appendices}
+\listoftables
+\listoffigures
+\end{document}

@@ -1,0 +1,64 @@
+\chapter{Algunas convenciones de escritura
+musical}
+\label{pre:convenciones}
+
+\section*{Grados}
+
+Para los grados melódicos hemos adoptado le convención schenkeriana: números arábigos para los grados melódicos y números romanos para los grados armónicos.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Grado} & \textbf{Melódico}  & \textbf{Armónico} \\
+\midrule
+Primer grado   & \grado{1}          & I                 \\
+Segundo grado  & \grado{2}          & II                \\
+Tercer grado   & \grado{3}          & III               \\
+Cuarto grado   & \grado{4}          & IV                \\
+Quinto grado   & \grado{5}          & V                 \\
+Sexto grado    & \grado{6}          & VI                \\
+Séptimo grado  & \grado{7}          & VII               \\
+Octavo grado   & \grado{8}          & ---              \\
+\bottomrule
+\end{tabular}
+\caption*{Grados.}\label{pretab:grados}
+\end{table}
+
+El bajo en los grados armónicos se escribe como subíndice bajo el grado (en romano) o el nombre de la fundamental. Las notas añadidas a la triada se escriben como superíndice. Ejemplo: la dominante séptima del segundo grado con su tercera alterada en el bajo se cifra \acorde.V.\sostenidotxt3.7.../II, y, en la tonalidad de Fa mayor, también se puede escribir como \acorde.Re.Fa\sostenidotxt.7....
+
+\section*{Ligaduras}
+
+La ligadura semipunteada significa dependencia de la primera respecto a la segunda nota. Ejemplo:
+
+\begin{figure}[H]
+\centering
+\begin{lilypond}[notime]
+\relative {
+  \hide Stem
+  \slurHalfDashed
+  e''4 ( c2 ) \bar "||"
+  e,4 ( g2 ) \bar "||"
+}
+\end{lilypond}
+\caption*{Dependencia de una nota.}\label{prefig:dependencia}
+\end{figure}
+
+Las ligaduras punteadas se utilizan para marcar \emph{puentes de segundas}. Ejemplo:
+
+\begin{figure}[H]
+\centering
+\begin{lilypond}
+\relative {
+  \time 2/4
+  \tempo "Tempo di ritorno"
+  \partial 8
+  f''16 g
+  \slurDashed
+  a4. ( g16 f g8 ) ( e4 e8
+  f4. ) ( e16 d e8 )
+}
+\end{lilypond}
+\caption*{Puente de segundas.}
+\label{prefig:puente}
+\end{figure}

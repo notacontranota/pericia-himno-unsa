@@ -1,0 +1,280 @@
+[General]
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=false
+kile_livePreviewTool=LivePreview-PDFLaTeX
+lastDocument=cap/caminos-posibles.tex
+
+[document-settings,item:cap/apx-codigo.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:cap/bitonalidad.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:cap/caminos-posibles.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:cap/conclusiones.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:cap/convenciones.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:cap/letra-melodia-ritmo.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:cap/memoria.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:cap/partitura.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:cap/portada.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:cap/prologo.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:herrera-teoria_himno_unsa.tex]
+Bookmarks=29
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[item:cap/apx-codigo.tex]
+open=false
+order=-1
+
+[item:cap/bitonalidad.tex]
+open=false
+order=1
+
+[item:cap/caminos-posibles.tex]
+open=true
+order=2
+
+[item:cap/conclusiones.tex]
+open=true
+order=3
+
+[item:cap/convenciones.tex]
+open=false
+order=-1
+
+[item:cap/letra-melodia-ritmo.tex]
+open=false
+order=1
+
+[item:cap/memoria.tex]
+open=true
+order=1
+
+[item:cap/partitura.tex]
+open=false
+order=5
+
+[item:cap/portada.tex]
+open=false
+order=-1
+
+[item:cap/prologo.tex]
+open=false
+order=4
+
+[item:herrera-teoria_himno_unsa.tex]
+open=true
+order=0
+
+[item:himnounsa.kilepr]
+open=false
+order=-1
+
+[item:img/partitura-original.png]
+open=false
+order=-1
+
+[item:img/picasso-1932.jpg]
+open=false
+order=-1
+
+[item:img/sobre-seudonimo-poema.png]
+open=false
+order=-1
+
+[item:part/leguizamon-himno_unsa.ly]
+open=false
+order=-1
+
+[item:part/verso1.ly]
+open=false
+order=-1
+
+[item:part/verso2.ly]
+open=false
+order=-1
+
+[item:part/verso3.ly]
+open=false
+order=-1
+
+[item:part/verso4.ly]
+open=false
+order=-1
+
+[item:part/verso5.ly]
+open=false
+order=-1
+
+[item:part/verso6.ly]
+open=false
+order=-1
+
+[view-settings,view=0,item:cap/apx-codigo.tex]
+CursorColumn=8
+CursorLine=0
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:cap/bitonalidad.tex]
+CursorColumn=1892
+CursorLine=233
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:cap/caminos-posibles.tex]
+CursorColumn=0
+CursorLine=24
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:cap/conclusiones.tex]
+CursorColumn=13
+CursorLine=16
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:cap/convenciones.tex]
+CursorColumn=14
+CursorLine=60
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:cap/letra-melodia-ritmo.tex]
+CursorColumn=17
+CursorLine=1
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:cap/memoria.tex]
+CursorColumn=124
+CursorLine=3
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:cap/partitura.tex]
+CursorColumn=17
+CursorLine=3
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:cap/portada.tex]
+CursorColumn=9
+CursorLine=5
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:cap/prologo.tex]
+CursorColumn=417
+CursorLine=9
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:herrera-teoria_himno_unsa.tex]
+CursorColumn=19
+CursorLine=41
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=a,29,0

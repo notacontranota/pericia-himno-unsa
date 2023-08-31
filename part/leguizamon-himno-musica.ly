@@ -1,0 +1,144 @@
+\version "2.22.1"
+global = {
+  \key f \major
+  \time 2/4
+  \tempo "Introducción" 4 = 60
+  \partial 4 s4
+  s2*16
+  s4.
+  \tempo "Canto" s8
+  \bar "||"
+  s2*23
+  \bar "|."
+}
+
+melodia = \relative {
+  r4
+  R2*16
+  r4. c'8
+  f4. f8
+  f d e f 
+  g4 g8 f
+  e4. c8
+  a'4. a8
+  a f g a
+  bes4 bes8 a
+  g4. c8
+  f4. f8
+  f d e f
+  e4 c8 a
+  c4. d8
+  bes4 bes
+  bes4. c8
+  a g a f
+  g d e c
+  f4. f8
+  f d e f
+  bes4. bes8
+  bes g a bes
+  c4 f8 g
+  d4 e
+  f2
+}
+
+manoderecha = \relative {
+  \tuplet 3/2 {c'''8 a g}
+  \acciaccatura gis8 a d,4.
+  \acciaccatura gis8 a des,4.
+  \acciaccatura fis8 g c,4.
+  e,16 f a c \tuplet 3/2 {g'8 f e}
+  g bes,4.
+  \tuplet 3/2 {<e, a>8 bes' c} \tuplet 3/2 {<f, bes d> f' e}
+  <d, a' c>4 ~ \tuplet 3/2 {<d a' c>8 a' bes}
+  <es, fis c'>4 \tuplet 3/2 {c''8 a g}
+  \acciaccatura gis8 a d,4.
+  \acciaccatura gis8 a des,4.
+  \acciaccatura fis8 g c,4.
+  e,16 f a c \tuplet 3/2 {g'8 f e}
+  g bes,4.
+  \tuplet 3/2 {<e, a>8 bes' c} <f, bes d> a'
+  <f, c' f>4 ~ \tuplet 3/2 {<f c' f>8 a bes}
+  <es, fis c'>4 ~ \tuplet 3/2 {<es fis c'>8 a bes}
+  <e, a c>4. c8
+  f4. f8
+  f d e f
+  <b, g'>4 <b g'>8 f'
+  e4. c8
+  <e a>4. <e a>8
+  <e a> <c f> <e g> a
+  <f bes>4 <f bes>8 a
+  <e g>4. c'8
+  <f, d' f>4. q8
+  <b f'> d <b e> f'
+  <f, e'>4 <g c>8 <e a>
+  <es fis a c>4. d'8
+  <f, bes>4 q
+  bes4. c8
+  <e, a>8 g <e a> f
+  <b, g'> d e c
+  f4. f8
+  f8 d e f
+  <f bes>4. q8
+  q g <e a> bes'
+  <e, a c>4 <c' f>8 g'
+  <f, b d>4 <e gis e'>
+  <f a c f>2
+}
+
+manoizquierda = \relative {
+  \clef bass
+  r4
+  <g,,g'>4 <d''' f bes>
+  <c, bes' e> <c' bes'>
+  <f,, c' a'> <d'' a'>
+  <d, a' c> <d c' f>
+  <g, d'bes'> d''
+  <c, bes' d> <g' d'>
+  <f, c' a'> d'
+  <d a' c> d'
+  <g,,, g'> <d''' f bes>
+  <c, bes' e> <c' bes'>
+  <f,, c' a'> <d'' a'>
+  <d, a' c> <d c' f>
+  <g, d'bes'> d''
+  <c, bes' d> <g' d'>8 <c, bes' e>
+  <f, d' a'>4 d''
+  <d, c'> d'
+  <c, bes' d>2
+  f,8 c' a'4
+  <d, a' c>2
+  <g, f'>4 g'
+  c,8 bes' d4
+  f,,8 c' d e
+  f a ~ a4
+  <g d'>8 cis <g d'> cis
+  <c, bes' d>4 c'
+  d,,8 a' f' c'
+  b, gis' d'4
+  <f,, c' a'>2
+  <d' c'>
+  <g d'>8 cis <g d'> cis
+  <c, c'!>4 d'
+  <f,, c' a'> <d' a' c>
+  <g, f'> <c bes'?>
+  f,8 c' a'4
+  <d, a' c>2
+  <g d'>4 cis
+  <c, bes' d> c'
+  <f,, c' a'> <d' a' f'>
+  <g, d' b'> <c bes' d>
+  <f c' d>2
+}
+
+versos = \lyricmode {
+  Es -- toy so -- bre mi tie -- rra
+  pa -- ra be -- ber
+  el ai -- re que me~a -- lien -- ta
+  y~e -- se li -- cor
+  que los an -- ti -- guos dio -- ses
+  o -- fren -- da -- rán
+  has -- ta que~al fin,
+  des -- nu -- da~el al -- ma~en -- su~es -- plen -- dor,
+  re -- tor -- ne~ha -- cia la pu -- ra~e -- sen -- cia~en
+  las ver -- tien -- tes lím -- pi -- das del sa -- ber.
+}
