@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=cap/caminos-posibles.tex
+lastDocument=cap/memoria.tex
 
 [document-settings,item:cap/apx-codigo.tex]
 Bookmarks=
@@ -240,7 +240,7 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/memoria.tex]
-CursorColumn=124
+CursorColumn=166
 CursorLine=3
 Dynamic Word Wrap=true
 JumpList=
