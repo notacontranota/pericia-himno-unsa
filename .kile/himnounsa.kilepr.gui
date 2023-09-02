@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=cap/letra-melodia-ritmo.tex
+lastDocument=cap/memoria.tex
 
 [document-settings,item:cap/apx-codigo.tex]
 Bookmarks=
@@ -137,7 +137,7 @@ open=false
 order=-1
 
 [item:cap/letra-melodia-ritmo.tex]
-open=true
+open=false
 order=3
 
 [item:cap/memoria.tex]
@@ -221,8 +221,8 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/bitonalidad.tex]
-CursorColumn=2
-CursorLine=177
+CursorColumn=17
+CursorLine=26
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
@@ -261,8 +261,8 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/memoria.tex]
-CursorColumn=77
-CursorLine=46
+CursorColumn=0
+CursorLine=63
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
