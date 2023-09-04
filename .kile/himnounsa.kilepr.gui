@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=cap/caminos-posibles.tex
+lastDocument=cap/memoria.tex
 
 [document-settings,item:cap/apx-codigo.tex]
 Bookmarks=
@@ -125,7 +125,7 @@ open=false
 order=1
 
 [item:cap/caminos-posibles.tex]
-open=true
+open=false
 order=2
 
 [item:cap/conclusiones.tex]
@@ -229,8 +229,8 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/caminos-posibles.tex]
-CursorColumn=0
-CursorLine=38
+CursorColumn=691
+CursorLine=36
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
@@ -253,16 +253,16 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/letra-melodia-ritmo.tex]
-CursorColumn=156
-CursorLine=61
+CursorColumn=0
+CursorLine=52
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/memoria.tex]
-CursorColumn=0
-CursorLine=63
+CursorColumn=844
+CursorLine=106
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
@@ -293,8 +293,8 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:herrera-teoria_himno_unsa.tex]
-CursorColumn=24
-CursorLine=52
+CursorColumn=1
+CursorLine=42
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
