@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=cap/memoria.tex
+lastDocument=herrera-teoria_himno_unsa.tex
 
 [document-settings,item:cap/apx-codigo.tex]
 Bookmarks=
@@ -104,7 +104,7 @@ Mode=LaTeX
 Mode Set By User=false
 
 [document-settings,item:herrera-teoria_himno_unsa.tex]
-Bookmarks=29
+Bookmarks=27
 Encoding=UTF-8
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -141,7 +141,7 @@ open=false
 order=3
 
 [item:cap/memoria.tex]
-open=true
+open=false
 order=1
 
 [item:cap/partitura.tex]
@@ -221,16 +221,16 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/bitonalidad.tex]
-CursorColumn=17
-CursorLine=26
+CursorColumn=1903
+CursorLine=236
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/caminos-posibles.tex]
-CursorColumn=691
-CursorLine=36
+CursorColumn=205
+CursorLine=38
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
@@ -245,32 +245,32 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/convenciones.tex]
-CursorColumn=10
-CursorLine=44
+CursorColumn=375
+CursorLine=27
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/letra-melodia-ritmo.tex]
-CursorColumn=0
-CursorLine=52
+CursorColumn=362
+CursorLine=89
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/memoria.tex]
-CursorColumn=521
-CursorLine=97
+CursorColumn=12
+CursorLine=14
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/partitura.tex]
-CursorColumn=35
-CursorLine=23
+CursorColumn=0
+CursorLine=32
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
@@ -293,9 +293,9 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:herrera-teoria_himno_unsa.tex]
-CursorColumn=1
-CursorLine=42
+CursorColumn=0
+CursorLine=0
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
-ViMarks=a,29,0
+ViMarks=a,27,0

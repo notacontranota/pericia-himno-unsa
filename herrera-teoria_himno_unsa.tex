@@ -7,8 +7,6 @@
 \usepackage{tablefootnote}  % para \footnote{} en tabular
 \usepackage{booktabs}       % tablas estéticas
 \usepackage{multirow}       % filas múltiples en tablas
-%\usepackage{fancyhdr}       % encabezado de páginas
-%\pagestyle{fancy}
 \usepackage[
   hidelinks,
   colorlinks=false,
@@ -38,9 +36,7 @@
 \frontmatter
 \newpage{\ }
 \input{cap/portada}
-{\footnotesize
-\tableofcontents
-}
+{\footnotesize \tableofcontents}
 \input{cap/prologo}
 \input{cap/convenciones}
 \mainmatter
@@ -49,7 +45,6 @@
 \input{cap/partitura}
 \input{cap/bitonalidad}
 \input{cap/caminos-posibles}
-
 \backmatter
 \begin{appendices}
 \input{cap/apx-partitura}
