@@ -1,4 +1,4 @@
-# Análisis de una pieza iédita de Gustavo «Cuchi» Leguizamón
+# Análisis de una pieza inédita de Gustavo «Cuchi» Leguizamón. Himno a la Universidad Nacional de Salta.
 _Informe de peritaje de Pablo Herrera  sobre una pieza recobrada de la memoria de un hijo del «Cuchi» y de una partitura hallada en un expediente antiguo en la Universidad Nacional de Salta. Esta pieza está titulada  **Himno a la Universidad Nacional de Salta**._
 
 ![partitura-original](img/partitura-original.png)
