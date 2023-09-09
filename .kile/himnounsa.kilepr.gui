@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=cap/letra-melodia-ritmo.tex
+lastDocument=herrera-teoria_himno_unsa.tex
 
 [document-settings,item:cap/apx-codigo.tex]
 Bookmarks=
@@ -137,11 +137,11 @@ open=false
 order=-1
 
 [item:cap/letra-melodia-ritmo.tex]
-open=true
+open=false
 order=2
 
 [item:cap/memoria.tex]
-open=true
+open=false
 order=1
 
 [item:cap/partitura.tex]
@@ -254,14 +254,14 @@ ViMarks=
 
 [view-settings,view=0,item:cap/letra-melodia-ritmo.tex]
 CursorColumn=0
-CursorLine=84
+CursorLine=0
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/memoria.tex]
-CursorColumn=367
+CursorColumn=860
 CursorLine=106
 Dynamic Word Wrap=true
 JumpList=
