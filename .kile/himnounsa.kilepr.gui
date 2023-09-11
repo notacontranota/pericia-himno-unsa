@@ -261,16 +261,16 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/memoria.tex]
-CursorColumn=860
-CursorLine=106
+CursorColumn=26
+CursorLine=52
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/partitura.tex]
-CursorColumn=0
-CursorLine=32
+CursorColumn=419
+CursorLine=36
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
