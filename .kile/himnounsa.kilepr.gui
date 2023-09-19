@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=cap/caminos-posibles.tex
+lastDocument=herrera-teoria_himno_unsa.tex
 
 [document-settings,item:cap/apx-codigo.tex]
 Bookmarks=
@@ -121,11 +121,11 @@ open=false
 order=-1
 
 [item:cap/bitonalidad.tex]
-open=true
+open=false
 order=1
 
 [item:cap/caminos-posibles.tex]
-open=true
+open=false
 order=2
 
 [item:cap/conclusiones.tex]
@@ -205,24 +205,24 @@ open=false
 order=-1
 
 [view-settings,view=0,item:cap/apx-codigo.tex]
-CursorColumn=38
-CursorLine=0
+CursorColumn=1
+CursorLine=208
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/apx-partitura.tex]
-CursorColumn=27
-CursorLine=12
+CursorColumn=12
+CursorLine=15
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/bitonalidad.tex]
-CursorColumn=67
-CursorLine=236
+CursorColumn=0
+CursorLine=237
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
@@ -245,40 +245,40 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/convenciones.tex]
-CursorColumn=375
-CursorLine=27
+CursorColumn=12
+CursorLine=64
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/letra-melodia-ritmo.tex]
-CursorColumn=0
-CursorLine=0
+CursorColumn=362
+CursorLine=89
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/memoria.tex]
-CursorColumn=26
-CursorLine=52
+CursorColumn=1175
+CursorLine=95
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/partitura.tex]
-CursorColumn=419
-CursorLine=36
+CursorColumn=58
+CursorLine=61
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/portada.tex]
-CursorColumn=9
-CursorLine=5
+CursorColumn=12
+CursorLine=18
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
@@ -293,8 +293,8 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:herrera-teoria_himno_unsa.tex]
-CursorColumn=0
-CursorLine=0
+CursorColumn=14
+CursorLine=54
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
