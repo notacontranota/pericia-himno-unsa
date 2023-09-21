@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=herrera-teoria_himno_unsa.tex
+lastDocument=cap/bitonalidad.tex
 
 [document-settings,item:cap/apx-codigo.tex]
 Bookmarks=
@@ -121,7 +121,7 @@ open=false
 order=-1
 
 [item:cap/bitonalidad.tex]
-open=false
+open=true
 order=1
 
 [item:cap/caminos-posibles.tex]
@@ -221,8 +221,8 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/bitonalidad.tex]
-CursorColumn=0
-CursorLine=237
+CursorColumn=1903
+CursorLine=236
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
@@ -293,8 +293,8 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:herrera-teoria_himno_unsa.tex]
-CursorColumn=14
-CursorLine=54
+CursorColumn=28
+CursorLine=46
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
