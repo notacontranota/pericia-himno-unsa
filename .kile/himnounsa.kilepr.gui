@@ -221,8 +221,8 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/bitonalidad.tex]
-CursorColumn=1903
-CursorLine=236
+CursorColumn=15
+CursorLine=156
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
@@ -261,8 +261,8 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap/memoria.tex]
-CursorColumn=1175
-CursorLine=95
+CursorColumn=199
+CursorLine=101
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
@@ -293,8 +293,8 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:herrera-teoria_himno_unsa.tex]
-CursorColumn=24
-CursorLine=40
+CursorColumn=0
+CursorLine=0
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]

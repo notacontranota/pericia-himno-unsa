@@ -133,19 +133,25 @@ Aún no hemos llegado a la certeza estructural, ya que en la primera parte del d
 
 \begin{figure}[H]
 \begin{ly}
+\layout {
+  \context {
+    \Voice
+    \consists Horizontal_bracket_engraver
+  }
+}
 \relative {
   \key f \major
   \time 2/4
   \partial 8
   c'8
   \slurDashed
-  f4. ( f8
+  f4.\startGroup f8
   f d e f
-  bes4. ) ( bes8
+  bes4. \stopGroup bes8
   bes g a bes
-  c4 ) ( f8 g
+  c4 \startGroup f8 g
   d4 e
-  f2 ) \bar "|."
+  f2 \stopGroup \bar "|."
 }
 \end{ly}
 \caption{Final de la melodía: estructura tetracordal.}
