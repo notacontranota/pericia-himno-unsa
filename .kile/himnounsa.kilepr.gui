@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=herrera-teoria_himno_unsa.tex
+lastDocument=cap/apx-codigo.tex
 
 [document-settings,item:cap/apx-codigo.tex]
 Bookmarks=
@@ -104,7 +104,7 @@ Mode=LaTeX
 Mode Set By User=false
 
 [document-settings,item:herrera-teoria_himno_unsa.tex]
-Bookmarks=27
+Bookmarks=28
 Encoding=UTF-8
 Highlighting=LaTeX
 Highlighting Set By User=false
@@ -113,8 +113,8 @@ Mode=LaTeX
 Mode Set By User=false
 
 [item:cap/apx-codigo.tex]
-open=false
-order=-1
+open=true
+order=1
 
 [item:cap/apx-partitura.tex]
 open=false
@@ -205,9 +205,9 @@ open=false
 order=-1
 
 [view-settings,view=0,item:cap/apx-codigo.tex]
-CursorColumn=1
-CursorLine=208
-Dynamic Word Wrap=false
+CursorColumn=0
+CursorLine=5
+Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
 ViMarks=
@@ -294,8 +294,8 @@ ViMarks=
 
 [view-settings,view=0,item:herrera-teoria_himno_unsa.tex]
 CursorColumn=0
-CursorLine=0
+CursorLine=30
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
-ViMarks=a,27,0
+ViMarks=a,28,0
