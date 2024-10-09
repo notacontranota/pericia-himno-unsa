@@ -1,1 +1,230 @@
-/home/notacontranota/MEGA/OSIJS/plantillas/musicologia/musluatex.sty
+\NeedsTeXFormat{LaTeX2e}%[1994/06/01]
+\ProvidesPackage{musluatex}[2023/07/18 v0.0000000002 Musicologia en LuaLaTeX]
+\RequirePackage{fontspec}
+\RequirePackage{lilyglyphs}
+\RequirePackage[hpadding=0,pass-fonts]{lyluatex}
+\RequirePackage{harmony}
+\RequirePackage{gregoriotex}
+\gresetlinecolor{gregoriocolor}
+\RequirePackage{xpiano}
+\keyboardsetup{size=0.2cm,height=2.5,color=red} %para teclado en línea (default size=0.5cm, height=4)
+\RequirePackage{tikz}
+\RequirePackage[addplus]{numprint}
+\RequirePackage{ddphonism}
+\RequirePackage{polyglossia}
+\setmainlanguage{spanish}
+
+
+\usepackage{soul}
+
+
+%logo del paquete
+\newcommand{\musLuaTeX}{mu\HH.\DS.....\LuaTeX}
+
+%musica en línea
+\newcommand{\muses}[2][]{\lilypond[#1]{\include "espanol.ly" #2}}
+%\newcommand{\mus}[2][]{\lilypond[#1]{#2}}
+\newcommand{\mus}[2][]{\lily[#1]{#2}}
+\newcommand{\archivoly}{\lilypondfile}
+\newcommand{\lilyfile}[2][]{\lilypondfile[#1,staffsize=10]{#2}}
+%\newcommand{\musncp}[2][]{\lilypond[#1,notime]{\hide Stem #2}}
+\newcommand{\musncp}[2][]{\lily[notime, #1]{ \hide Stem #2}}
+
+%Figuras
+\newcommand{\otroPuntillo}{\lilyPrintMoreDots}
+
+\newcommand{\redonda}{\wholeNote}
+\newcommand{\redondap}{\wholeNoteDotted}
+\newcommand{\blanca}{\halfNote}
+\newcommand{\blancab}{\halfNoteDown}
+\newcommand{\blancap}{\halfNoteDotted}
+\newcommand{\blancapb}{\halfNoteDottedDown}
+\newcommand{\blancapp}{\halfNoteDottedDouble}
+\newcommand{\blancappb}{\halfNoteDottedDoubleDown}
+\newcommand{\negra}{\quarterNote}
+\newcommand{\negrab}{\quarterNoteDown}
+\newcommand{\negrap}{\quarterNoteDotted}
+\newcommand{\negrapb}{\quarterNoteDottedDown}
+\newcommand{\negrapp}{\quarterNoteDottedDouble}
+\newcommand{\negrappb}{\quarterNoteDottedDoubleDown}
+\newcommand{\corchea}{\eighthNote}
+\newcommand{\corcheab}{\eighthNoteDown}
+\newcommand{\corcheap}{\eighthNoteDotted}
+\newcommand{\corcheapb}{\eighthNoteDottedDown}
+\newcommand{\corcheapp}{\eighthNoteDottedDouble}
+\newcommand{\corcheappb}{\eighthNoteDottedDoubleDown}
+\newcommand{\semicorchea}{\sixteenthNote}
+\newcommand{\semicorcheab}{\sixteenthNoteDown}
+\newcommand{\semicorcheap}{\sixteenthNoteDotted}
+\newcommand{\semicorcheapb}{\sixteenthNoteDottedDown}
+\newcommand{\semicorcheapp}{\sixteenthNoteDottedDouble}
+\newcommand{\semicorcheappb}{\sixteenthNoteDottedDoubleDown}
+\newcommand{\fusa}{\thirtysecondNote}
+\newcommand{\fusab}{\thirtysecondNoteDown}
+\newcommand{\fusap}{\thirtysecondNoteDotted}
+\newcommand{\fusapb}{\thirtysecondNoteDottedDown}
+\newcommand{\fusapp}{\thirtysecondNoteDottedDouble}
+\newcommand{\fusappb}{\thirtysecondNoteDottedDoubleDown}
+
+%silencios
+\newcommand{\silencioRedonda}{\wholeNoteRest}
+\newcommand{\silencioRedondap}{\wholeNoteRestDotted}
+\newcommand{\silencioRedondapp}{\silencioRedondap\otroPuntillo}
+\newcommand{\silencioBlanca}{\halfNoteRest}
+\newcommand{\silencioBlancap}{\halfNoteRestDotted}
+\newcommand{\silencioNegra}{\crotchetRest}
+\newcommand{\silencioNegrap}{\crotchetRestDotted}
+\newcommand{\silencioCorchea}{\quaverRest}
+\newcommand{\silencioCorcheap}{\quaverRestDotted}
+\newcommand{\silencioSemicorchea}{\semiquaverRest}
+\newcommand{\silencioSemicorcheap}{\semiquaverRestDotted}
+
+%Dinámicas
+\newcommand{\dinamica}[1]{\lilyDynamics{#1}}
+
+%Claves
+\newcommand{\claveSol}{\clefG}
+\newcommand{\claveDo}{\clefC}
+\newcommand{\claveFa}{\clefF}
+
+%Compás
+\newcommand{\compas}[2]{\lilyTimeSignature{#1}{#2}}
+\newcommand{\compasC}{\lilyTimeC}
+\newcommand{\compasCC}{\lilyTimeCHalf}
+
+%cuerdas
+\newcommand{\cuerda}[1]{\textcircled{\lilyText{#1}}}
+
+%ritmo
+%\newcommand{\ritmo}[1]{\lilypond[inline-staffsize=8,insert=bare-inline,valign=bottom,voffset=-1pt]{\relative f'{#1}}}
+\newcommand{\ritmosimple}[1]{\lilypond[inline-staffsize=8,insert=bare-inline,valign=bottom,voffset=-1pt]{\relative f'{#1}}}
+
+\newcommand{\ritmo}[2][]{\lily[voffset=-2.5pt,#1]{\score {\new RhythmicStaff {#2}}}}
+
+\newcommand{\ritmoletra}[3][]{\lily[voffset=-5.4pt,#1]{\score {\new RhythmicStaff {#2}\addlyrics{#3}}}}
+
+%ACORDES
+
+%cifrado americano
+\newcommand{\cifAm}[2]{\lily[inline-staffsize=12,valign=bottom]{\new ChordNames {\chordmode{#1:#2}}}}
+
+%Diagrama de guitarra
+\newcommand{\diaGtr}[2]{\lily[inline-staffsize=12,valign=bottom]{ \include "predefined-guitar-fretboards.ly" \new FretBoards {\chordmode{#1:#2}}}}
+
+%cifrado funcional (alemán) y de grados.
+\newcommand{\acorde}{\HH}
+\newcommand{\tachado}[1]{\textst{#1}}
+
+%símbolos de alteraciones musicales
+\newcommand{\becuadro}{\natural}
+\newcommand{\sostenido}{\sharp}
+\newcommand{\doblesostenido}{\doublesharp}
+\newcommand{\bemol}{\flat}
+\newcommand{\doblebemol}{\flatflat}
+
+%Caracteres musicales UTF-8
+\newcommand{\bemoltxt}{{\fontspec{DejaVu Sans} \symbol{"266D}}}
+\newcommand{\becuadrotxt}{{\fontspec{DejaVu Sans} \symbol{"266E}}}
+\newcommand{\sostenidotxt}{{\fontspec{DejaVu Sans} \symbol{"266F}}}
+
+%Piano
+\newcommand{\teclado}{\keyboard}
+
+%Piano con afinación
+\newcommand{\afitecneg}[5]{
+  \def\tempdos{#1}
+  \def\tempres{#2}
+  \def\tempfas{#3}
+  \def\tempsols{#4}
+  \def\templas{#5}
+}
+\newcommand{\afitecblan}[7]{
+  \begin{tikzpicture}[xscale=.5,yscale=.5]
+  \draw (0.5,0) rectangle (3.7,7);
+  \foreach \tecla / \cent in
+  {
+    1/#1,
+    2/#2,
+    3/#3,
+    4/#4,
+    5/#5,
+    6/#6,
+    7/#7
+  }
+  {
+    \draw (0.5,\tecla) -- (3.7,\tecla);
+    \node[anchor=east] at (3.7,\tecla - 0.5) {\texttt{\tiny \cent}};
+  }
+  \foreach \tecla / \cent in
+  {
+    0.7/\tempdos,
+    1.9/\tempres,
+    3.7/\tempfas,
+    4.8/\tempsols,
+    5.9/\templas
+  }
+  {
+    \draw[fill=black] (0.5,\tecla) rectangle (2.2,\tecla + 0.4);
+    \node[anchor=east] at (0.5,\tecla + 0.2) {\texttt{\tiny \cent}};
+  }
+  \end{tikzpicture}
+}
+
+%Círculo de quintas afinación
+\newcommand{\circulogcs}[6]{
+  \def\tempg{#1}
+  \def\tempd{#2}
+  \def\tempa{#3}
+  \def\tempe{#4}
+  \def\tempb{#5}
+  \def\tempfs{#6}
+}
+\newcommand{\circulocsg}[6]{
+  \begin{tikzpicture}[scale=0.7]
+  \draw (0,0) circle [radius=4];
+  \foreach \paso / \etiqueta / \notas [
+    remember=\paso as \pasoprevio(initially 0), %<--| debe ser 0
+    remember=\etiqueta as \etiquetaprevia(initially #6),% <--|etiqueta del número 12
+    evaluate=\paso as \angulo using \etiqueta*\paso/700*360/12,
+    evaluate=\paso as \anguloprevio using \etiquetaprevia*\pasoprevio/700*360/12,
+    evaluate=\paso as \angulocent using (\anguloprevio + \angulo)/2,
+    evaluate=\paso as \cents using \etiqueta - 701.955
+  ] in
+  {
+    1/\tempg/Sol,
+    2/\tempd/Re,
+    3/\tempa/La,
+    4/\tempe/Mi,
+    5/\tempb/Si,
+    6/\tempfs/Fa\sostenidotxt,
+    7/#1/Do\sostenidotxt,
+    8/#2/Sol\sostenidotxt,
+    9/#3/Mi\bemoltxt,
+    10/#4/Si\bemoltxt,
+    11/#5/Fa,
+    12/#6/Do
+  }
+  {
+    \draw[fill=black] (90-\angulo : 4 ) circle [radius=0.1];
+    \node at (90-\angulo : 4.5 ) {\textbf {\tiny \notas}};
+    \node at (90-\angulocent:3.5){\tiny \npnoaddplus \nprounddigits{1} $\numprint{\etiqueta}$};
+    \node at (90-\angulocent:4.5){\tiny \nprounddigits{1} $\numprint{\cents}$};
+  }
+  \end{tikzpicture}
+}
+
+%Gregoriano
+\newcommand{\gregoriano}{\gabcsnippet}
+
+%Bajo cifrado
+\newcommand{\bajoContinuo}[1]{\lily[inline-staffsize=12,valign=bottom]{\new FiguredBass {\figuremode{#1}}}}
+
+%Grados melódicos (análisis schenkeriano)
+\newcommand{\grado}[1]{$\hat{#1}$}
+
+%Notas con índice acústico
+\newcommand{\nota}[2]{\emph{#1}$_{#2}$}
+
+
+
+\endinput
